@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	src: local("Roboto Condensed"), local("Roboto Condensed-Regular"), url(https://fonts.gstatic.com/s/Roboto Condensed/v4/jObgDQiPUtmACAaaK3pMG6CWcynf_cDxXwCLxiixG1c.ttf) format("truetype");
+}
+
+html, body {
+	margin: 0;
+	max-width: 100%;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.container:hover > .section {
+	filter: brightness(22%);
+}
+
+.container:hover > .section:hover {
+	filter: brightness(100%);
+}
+
+.container .section {
+	position: relative;
+	height: 100%;
+	transition: all 0.4s;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	text-align: center;
+	flex: 1;
+	background-repeat: no-repeat;
+  background-size: cover;
+	background-position: center;
+}
+
+.container .section .cont_title {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	margin-top: 30vh;
+}
+
+.container .section .cont_title h1 {
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+	font-size: 3.5vw;
+	margin: 0;
+	transition: font-size 0.3s;
+	vertical-align: middle;
+}
+
+.container .section .cont_title h3 {
+	text-transform: uppercase;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.3vw;
+	transition: all 0.3s;
+	color: white;
+}
+
+.container .section .cont_desc {
+	position: relative;
+	display: block;
+	text-align: center;
+	width: 60%;
+	height: auto;
+	margin: auto;
+	opacity: 0;
+	transition: opacity 0.4s;
+	padding-top: 30px;
+}
+
+.container .section .cont_desc p {
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+.container .section:hover {
+	flex-grow: 1.8;
+	transition: flex 0.4s;
+}
+
+.container .section:hover > .cont_title h1 {
+	font-size: 5vw;
+	transition: font-size 0.4s;
+}
+
+.container .section:hover > .cont_title h3 {
+	font-size: 1.5vw;
+	transition: all 0.4s;
+}
+
+.container .section:hover > .cont_desc {
+	opacity: 1;
+	transition-delay: 1s;
+	transition: opacity 0.8s;
+}
+
+.section:nth-child(1) {
+	background-image: url("http://epic.spb.ru/demo/pic1.jpg");
+}
+
+.section:nth-child(2) {
+	background-image: url("http://epic.spb.ru/demo/pic2.jpg");
+}
+
+.section:nth-child(3) {
+	background-image: url("http://epic.spb.ru/demo/pic3.jpg");
+}
+
+.section:nth-child(4) {
+	background-image: url("http://epic.spb.ru/demo/pic4.jpg");
+}
+
+.section:nth-child(5) {
+	background-image: url("http://epic.spb.ru/demo/pic5.jpg");
+}
