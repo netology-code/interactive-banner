@@ -110,21 +110,21 @@ html, body {
 }
 
 .section:nth-child(1) {
-	background-image: url("http://epic.spb.ru/demo/pic1.jpg");
+	background-image: url("pic1.jpg");
 }
 
 .section:nth-child(2) {
-	background-image: url("http://epic.spb.ru/demo/pic2.jpg");
+	background-image: url("pic2.jpg");
 }
 
 .section:nth-child(3) {
-	background-image: url("http://epic.spb.ru/demo/pic3.jpg");
+	background-image: url("pic3.jpg");
 }
 
 .section:nth-child(4) {
-	background-image: url("http://epic.spb.ru/demo/pic4.jpg");
+	background-image: url("pic4.jpg");
 }
 
 .section:nth-child(5) {
-	background-image: url("http://epic.spb.ru/demo/pic5.jpg");
+	background-image: url("pic5.jpg");
 }
