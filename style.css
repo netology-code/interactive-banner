@@ -9,6 +9,7 @@ html, body {
 	margin: 0;
 	max-width: 100%;
 	height: 100%;
+	overflow: hidden; 
 }
 
 .container {
@@ -47,14 +48,14 @@ html, body {
 	width: 100%;
 	height: 300px;
 	text-align: center;
-	margin-top: 30vh;
+	margin-top: 5vh;
 }
 
 .container .section .cont_title h1 {
 	text-transform: uppercase;
-	color: white;
+	color: #FFD90F;
 	font-family: 'Roboto Condensed', sans-serif;
-	text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 1px 2px 5px rgba(11,118,224, 0.5);
 	font-size: 3.5vw;
 	margin: 0;
 	transition: font-size 0.3s;
@@ -66,25 +67,28 @@ html, body {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.3vw;
 	transition: all 0.3s;
-	color: white;
+	color: #0B76E0;
+	text-shadow: 1px 2px 5px rgba(255,217,15, 0.5);
 }
 
 .container .section .cont_desc {
 	position: relative;
 	display: block;
 	text-align: center;
-	width: 60%;
+	width: 100%;
 	height: auto;
 	margin: auto;
 	opacity: 0;
 	transition: opacity 0.4s;
-	padding-top: 30px;
+	padding: 30px 15%;
+	box-sizing: border-box;
+	background-color: rgba(255,217,15, 0.8);
 }
 
 .container .section .cont_desc p {
 	margin: 0;
 	font-family: 'Roboto Condensed', sans-serif;
-	color: white;
+	color: black;
 	font-size: 20px;
 }
 
