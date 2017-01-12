@@ -5,7 +5,7 @@ html, body {
 	overflow: hidden;
 }
 
-.container {
+main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -13,15 +13,15 @@ html, body {
 	width: 100vw;
 }
 
-.container:hover > .section {
+main:hover > section {
 	filter: brightness(22%);
 }
 
-.container:hover > .section:hover {
+main:hover > section:hover {
 	filter: brightness(100%);
 }
 
-.container .section {
+section {
 	position: relative;
 	height: 100%;
 	transition: all 0.4s;
@@ -35,7 +35,7 @@ html, body {
 	background-position: center;
 }
 
-.container .section .cont_title {
+.cont_title {
 	position: relative;
 	margin: auto;
 	width: 100%;
@@ -44,7 +44,7 @@ html, body {
 	margin-top: 5vh;
 }
 
-.container .section .cont_title h1 {
+.cont_title h2 {
 	text-transform: uppercase;
 	color: #FFD90F;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -55,7 +55,7 @@ html, body {
 	vertical-align: middle;
 }
 
-.container .section .cont_title h3 {
+.cont_title h3 {
 	text-transform: uppercase;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 1.3vw;
@@ -64,7 +64,7 @@ html, body {
 	text-shadow: 1px 2px 5px rgba(255,217,15, 0.5);
 }
 
-.container .section .cont_desc {
+.cont_desc {
 	position: relative;
 	display: block;
 	text-align: center;
@@ -78,50 +78,50 @@ html, body {
 	background-color: rgba(255,217,15, 0.8);
 }
 
-.container .section .cont_desc p {
+.cont_desc p {
 	margin: 0;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: black;
 	font-size: 20px;
 }
 
-.container .section:hover {
+section:hover {
 	flex-grow: 1.8;
 	transition: flex 0.4s;
 }
 
-.container .section:hover > .cont_title h1 {
+section:hover > .cont_title h2 {
 	font-size: 5vw;
 	transition: font-size 0.4s;
 }
 
-.container .section:hover > .cont_title h3 {
+section:hover > .cont_title h3 {
 	font-size: 1.5vw;
 	transition: all 0.4s;
 }
 
-.container .section:hover > .cont_desc {
+section:hover > .cont_desc {
 	opacity: 1;
 	transition-delay: 1s;
 	transition: opacity 0.8s;
 }
 
-.section:nth-child(1) {
+.homer {
 	background-image: url("pic1.jpg");
 }
 
-.section:nth-child(2) {
+.marge {
 	background-image: url("pic2.jpg");
 }
 
-.section:nth-child(3) {
+.bart {
 	background-image: url("pic3.jpg");
 }
 
-.section:nth-child(4) {
+.lisa {
 	background-image: url("pic4.jpg");
 }
 
-.section:nth-child(5) {
+.maggie {
 	background-image: url("pic5.jpg");
 }
